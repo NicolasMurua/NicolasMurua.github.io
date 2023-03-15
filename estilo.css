@@ -1,0 +1,74 @@
+
+.diseño a:visited, .diseño a:link, .diseño a:active{
+    text-decoration: none;
+}
+
+.diseño{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #E3E1E1;
+    border-radius: 0.5em;
+}
+
+.tarjeta a {
+    transition: .5s;
+}
+
+.tarjeta {
+    background-color: grey;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    transition: .5s;
+    width: 100%;
+}
+
+.tarjeta img{
+    max-width: 100%;
+    margin: auto;
+    height: 10em; 
+    justify-content: center;
+}
+
+.imagen1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.marcotarjeta {
+    width: 20%;
+    background-color: blanchedalmond;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    display: inline-block;
+    height: auto;
+}
+
+.texto {
+    text-align: center;
+    
+}
+.titulo{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1em;
+}
+
+.tarjeta .marcotarjeta:hover{
+
+    box-shadow: 5px 5px 10px #000;
+        transition: .4s;
+}
+
+.final{
+    text-align: right;
+}
